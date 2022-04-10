@@ -1,0 +1,55 @@
+/* 1278px */
+@media (max-width: 79.875em) {
+    .img {
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    .tribute-info-list li {
+        font-size: 1.6rem;
+        color: #504f4c;
+    }
+
+    .heading-secondary {
+        font-size: 2.4rem !important;
+    }
+
+    #tribute-link:link,
+    #tribute-link:visited {
+        font-size: 1.4rem;
+    }
+}
+
+/* 930px */
+@media (max-width: 58.125em) {
+    .content-holder {
+        width: 95%;
+        margin: 2rem auto 0;
+
+        grid-template-columns: 1fr;
+    }
+
+    .img {
+        margin-top: 2.4rem;
+    }
+
+    #title {
+        font-size: 4rem;
+    }
+}
+
+/* 442 px */
+@media (max-width: 27.625em) {
+    .tribute-info-list li {
+        font-size: 1.4rem;
+        color: #504f4c;
+    }
+
+    #title {
+        font-size: 3.2rem;
+    }
+
+    .subtitle {
+        font-size: 1.6rem;
+    }
+}

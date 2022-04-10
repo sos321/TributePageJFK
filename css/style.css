@@ -89,6 +89,8 @@ body {
 .tribute-info-list li {
     font-size: 2rem;
     color: #504f4c;
+
+    line-height: 1.5;
 }
 
 #tribute-link:link,
