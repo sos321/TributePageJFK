@@ -11,6 +11,16 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.content-holder {
+    width: 80%;
+    margin: 2rem auto 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    column-gap: 2rem;
+}
+
 .title-holder {
     text-align: center;
     margin-top: 3rem;
@@ -24,14 +34,86 @@ body {
     margin-bottom: 1.2rem;
 }
 
+.heading-secondary {
+    font-size: 3.2rem !important;
+    font-weight: bold;
+    color: #504f4c;
+
+    text-align: center;
+}
+
 .subtitle {
     font-size: 1.8rem;
     color: #595754;
 }
 
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
 .img {
-    width: 50%;
-    height: 50%;
+    display: inline-block;
+    max-width: 82%;
+    max-height: 82%;
+    width: auto;
+    height: auto;
 
     border-radius: 9px;
+}
+
+#img-caption {
+    font-size: 1.2rem;
+    color: #504f4c;
+
+    margin-top: 1rem;
+}
+
+#tribute-info {
+    align-self: center;
+}
+
+.tribute-info-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.4rem;
+
+    margin-top: 2rem;
+}
+
+.tribute-info-list li {
+    font-size: 2rem;
+    color: #504f4c;
+}
+
+#tribute-link:link,
+#tribute-link:visited {
+    position: relative;
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #504f4c;
+    text-decoration: none;
+
+    margin-top: 4rem;
+}
+
+#tribute-link:link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #504f4c;
+    transition: width 0.8s;
+}
+
+#tribute-link:hover::before {
+    width: 100%;
+    left: 0;
 }
