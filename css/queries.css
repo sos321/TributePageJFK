@@ -23,7 +23,7 @@
 /* 930px */
 @media (max-width: 58.125em) {
     .content-holder {
-        width: 95%;
+        width: 92%;
         margin: 2rem auto 0;
 
         grid-template-columns: 1fr;
@@ -46,10 +46,19 @@
     }
 
     #title {
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
 
     .subtitle {
         font-size: 1.6rem;
+    }
+
+    #tribute-link:link,
+    #tribute-link:visited {
+        margin-left: 0.8rem;
+    }
+
+    #img-caption {
+        margin-bottom: 3rem;
     }
 }
